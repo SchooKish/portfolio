@@ -1,0 +1,40 @@
+.body
+    // font-family: "Museo Sans Cyrl"
+    // font-weight: 300
+img
+    max-width: 100%
+.container
+    width: 1170px
+    margin: auto
+@media ( max-width: 1200px)
+    .container
+        width: 760px
+@media ( max-width: 768px)
+    .container
+        max-width: 580px
+        width: 9%
+        
+.button
+    border-radius: 10px
+    background-color: $main-color
+    border: none
+    padding: 18px 30px
+    &:hover
+        background-color: lighten($main-color, 10%)
+        cursor: pointer
+
+.section
+    padding: 90px 0
+    &-tittle
+        font-size: 24px
+    &-subtittle
+        font-size: 16px
+        display: block
+
+.input
+    border-radius: 10px
+    border: 1px solid $border-input
+    padding: 26px
+    font-size: 15px
+        
+

@@ -1,0 +1,484 @@
+/* * {
+  box-sizing: content-box;
+} */
+
+.header__menu {
+  list-style-type: none;
+  margin-left: 300px;
+}
+
+.header__menu li {
+  display: inline;
+  padding-right: 58px;
+}
+
+.header__menu a {
+  font-family: ProximaNovaRegular;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.header__item1 {
+  color: #00b129;
+}
+
+.header__item2 p {
+  color: #00b129;
+  font-weight: bold;
+  font-size: 28px;
+  display: inline;
+}
+
+.header {
+  background-image: url(img/header/bg.png);
+  background-position: center center;
+  background-size: cover;
+  height: 980px;
+}
+
+.header__tittel {
+  font-family: GoodVibesPro;
+  font-size: 85px;
+  margin-left: 342px;
+  margin-top: 167px;
+}
+
+.header__price {
+  font-family: ProximaNovaRegular;
+  font-size: 36px;
+  background-image: url(img/header/price.png);
+  background-repeat: no-repeat;
+  margin-left: 340px;
+  padding: 16px 51px 20px 60px;
+  margin-top: -42px;
+  margin-bottom: 69px;
+}
+
+.header__button {
+  font-family: ProximaNovaBlack;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  border: 10px solid #cbcccf;
+  border-radius: 90px;
+  background-color: #01882c;
+  padding: 32px 76px;
+  margin-left: 340px;
+}
+
+.story {
+  background-image: url(img/story/img.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: -100px;
+  margin-right: 40px;
+}
+
+.text {
+  margin-right: 40px;
+}
+
+.story__paragraph1 {
+  font-family: ProximaNovaBold;
+  font-size: 30px;
+  margin-left: 339px;
+}
+
+.story__paragraph2 {
+  font-family: ProximaNovaRegular;
+  font-size: 30px;
+  margin-left: 339px;
+}
+
+.price {
+  background-image: url(img/price/bg.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.price__tittle {
+  font-family: GoodVibesPro;
+  font-size: 85px;
+  text-align: center;
+}
+
+.price__text {
+  font-family: ProximaNovaRegular;
+  font-size: 30px;
+  text-align: center;
+}
+
+.price__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.price__item {
+  background-image: url(img/price/column1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-align: center;
+  width: 30%;
+}
+
+.price-item__icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price-item__tittle {
+  text-align: center;
+  font-family: ProximaNovaBlack;
+  font-size: 30px;
+}
+
+.button__tittle {
+  font-family: ProximaNovaRegular;
+  font-size: 24px;
+}
+
+.button__button {
+  font-family: ProximaNovaBold;
+  font-size: 12px;
+  text-decoration: none;
+  border-bottom: 1px dashed #000;
+  color: #000;
+}
+
+.button__price1 {
+  font-family: ProximaNovaBlack;
+  font-size: 30px;
+  color: #ffc414;
+}
+
+.button__price2 {
+  font-family: ProximaNovaBlack;
+  font-size: 30px;
+  color: #00b129;
+}
+
+.button__price3 {
+  font-family: ProximaNovaBlack;
+  font-size: 30px;
+  color: #9518db;
+}
+
+.coming__tittle {
+  font-family: GoodVibesPro;
+  font-size: 86px;
+  text-align: center;
+}
+
+/* .wrap__box{
+  background-image: url(img/coming/line.png);
+  background-repeat: no-repeat;
+} */
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  height: 100%;
+  width: 100%;
+  background-image: url(img/coming/line.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.box__item {
+  width: 40%;
+  height: 40%;
+}
+
+.box-item1 {
+  width: 25%;
+  height: 25%;
+}
+
+.box-item2 {
+  font-family: ProximaNovaRegular;
+  font-size: 24px;
+  transform: rotate(-5deg);
+}
+
+.wrap__item2 {
+  background-image: url(img/coming/bgtext1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.box-item3 {
+  font-family: ProximaNovaRegular;
+  font-size: 24px;
+  transform: rotate(5deg);
+}
+
+.wrap__item3 {
+  background-image: url(img/coming/bgtext2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.box-item4 {
+  width: 25%;
+  height: 25%;
+  margin-right: 200px;
+}
+
+.box-item5 {
+  width: 25%;
+  height: 25%;
+}
+
+.box-item6 {
+  font-family: ProximaNovaRegular;
+  font-size: 24px;
+  transform: rotate(5deg);
+}
+
+.wrap__item6 {
+  background-image: url(img/coming/bgtext3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.box-item7 {
+  font-family: ProximaNovaRegular;
+  font-size: 24px;
+  transform: rotate(3deg);
+}
+
+.wrap__item7 {
+  background-image: url(img/coming/bgtext4.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.box-item8 {
+  width: 25%;
+  height: 25%;
+}
+
+.timetable {
+  background-image: url(img/timetable/bg.png);
+  background-repeat: no-repeat;
+}
+
+.timetable__tittle {
+  font-family: GoodVibesPro;
+  font-size: 85px;
+  text-align: center;
+}
+
+.timetable__text {
+  font-family: ProximaNovaRegular;
+  font-size: 30px;
+  text-align: center;
+}
+
+.timetable__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.timetable__box-item {
+  width: 40%;
+  height: 40%;
+}
+
+.timetable__march {
+  font-family: LemonTuesdayRegular;
+  font-size: 92px;
+}
+
+.timetable__calendar {
+}
+
+.timetable__info {
+  font-family: ProximaNovaBlack;
+  font-size: 48px;
+}
+
+.timetable__info-text {
+  font-family: ProximaNovaRegular;
+  font-size: 27px;
+}
+
+.timetable__button {
+  font-family: ProximaNovaBlack;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 44px 78px 50px 79px;
+  border: solid 10px #cbcccf;
+  border-radius: 100px;
+  background-color: #01882c;
+}
+
+.safe {
+  background-image: url(img/safe/img.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+  margin-right: 200px;
+}
+
+.safe__paragraph1 {
+  font-family: ProximaNovaBold;
+  font-size: 30px;
+  margin-left: 340px;
+}
+
+.safe__paragraph2 {
+  font-family: ProximaNovaRegular;
+  font-size: 30px;
+  margin-left: 340px;
+}
+
+.faq {
+  background-image: url(img/FAQ/bg.png);
+  background-repeat: no-repeat;
+}
+
+.faq__tittle {
+  font-family: GoodVibesPro;
+  font-size: 85px;
+  text-align: center;
+  margin-bottom: -40px;
+}
+
+.faq__text {
+  font-family: ProximaNovaRegular;
+  font-size: 30px;
+  text-align: center;
+}
+
+.faq__list {
+  counter-reset: list;
+  margin-left: 500px;
+}
+
+.faq__list-item {
+  counter-increment: list;
+  list-style-type: none;
+}
+
+.faq__list-item::before {
+  content: "0" counter(list);
+  font-family: Mandela;
+  color: #6ecb8e;
+  font-size: 160px;
+  background-image: url(img/FAQ/img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 40px 36px 40px;
+}
+
+.list-item__quest {
+  font-family: ProximaNovaBlack;
+  font-size: 36px;
+}
+
+.list-item__answer {
+  font-family: ProximaNovaRegular;
+  font-size: 30px;
+}
+
+.faq__button {
+  font-family: ProximaNovaRegular;
+  font-size: 30px;
+  color: #000;
+}
+
+.services {
+}
+
+.services-tittle {
+  font-family: GoodVibesPro;
+  font-size: 85px;
+  text-align: center;
+}
+
+.services__box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.services__box-item{
+  width: 40%;
+  
+}
+
+.services__box-image {
+}
+
+.services__box-text {
+  font-family: ProximaNovaRegular;
+  font-size: 25px;
+  text-align: center;
+}
+
+.services__box-tittle {
+  font-family: MyriadProRegular;
+  font-size: 30px;
+}
+
+.services__box-botton {
+  font-family: ProximaNovaBlack;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 34px 64px 31px 63px;
+  border-radius: 100px;
+  background-color: #01882c;
+
+}
+
+@font-face {
+  font-family: "GoodVibesPro";
+  src: url(font/GoodVibesPro.ttf);
+}
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url(font/ProximaNovaRegular.ttf);
+}
+
+@font-face {
+  font-family: "ProximaNovaBlack";
+  src: url(font/ProximaNovaBlack.otf);
+}
+
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url(font/ProximaNovaBold.otf);
+}
+
+@font-face {
+  font-family: "LemonTuesdayRegular";
+  src: url(font/LemonTuesdayRegular.ttf);
+}
+
+@font-face {
+  font-family: "Mandela";
+  src: url(font/Mandela.ttf);
+}
+
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url(font/MyriadProRegular.otf);
+}
