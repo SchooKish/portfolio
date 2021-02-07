@@ -1,0 +1,27 @@
+{
+    "amount": 3,
+    "countGoods": 9500,
+    "contents": [
+        {
+    	"id_product": 1,
+    	"product_name": "t-short",
+    	"price": 1000,
+	"quantity": 1,
+	"img": "../img/product1.jpg"
+  	},
+  	{
+    	"id_product": 2,
+    	"product_name": "blouse",
+    	"price": 2500,
+	"quantity": 1,
+	"img": "../img/product2.jpg"
+  	},
+  	{
+    	"id_product": 3,
+    	"product_name": "jacket",
+    	"price": 6000,
+	"quantity": 1,
+	"img": "../img/product3.jpg"
+  	}
+    ]
+}

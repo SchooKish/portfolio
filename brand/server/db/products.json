@@ -1,0 +1,50 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "t-short",
+    "price": 1000,
+    "img": "../img/product1.jpg"
+  },
+  {
+    "id_product": 2,
+    "product_name": "blouse",
+    "price": 2500,
+    "img": "../img/product2.jpg"
+  },
+  {
+    "id_product": 3,
+    "product_name": "jacket",
+    "price": 6000,
+    "img": "../img/product3.jpg"
+  },
+  {
+    "id_product": 4,
+    "product_name": "blouse",
+    "price": 2000,
+    "img": "../img/product4.jpg"
+  },
+  {
+    "id_product": 5,
+    "product_name": "top",
+    "price": 2300,
+    "img": "../img/product5.jpg"
+  },
+  {
+    "id_product": 6,
+    "product_name": "blazer",
+    "price": 4000,
+    "img": "../img/product6.jpg"
+  },
+  {
+    "id_product": 7,
+    "product_name": "ants",
+    "price": 3000,
+    "img": "../img/product7.jpg"
+  },
+  {
+    "id_product": 8,
+    "product_name": "hoody",
+    "price": 3500,
+    "img": "../img/product8.jpg"
+  }
+]
