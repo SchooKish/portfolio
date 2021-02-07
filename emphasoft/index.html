@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webim</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo"><img src="img/logo.svg" alt="logo" /></div>
+      <nav class="header__nav">
+        <a href="#main">Main</a><a href="#features">Features</a
+        ><a href="#item">Item</a><a href="#partners">Partners</a><a href="#faq">F.A.Q.</a>
+      </nav>
+    </header>
+    <main class="main"><a name="main"></a>
+      <div class="container">
+        <section class="block">
+          <div class="row">
+            <div class="col-6">
+              <h1 class="block-title title anim-items">Header</h1>
+              <p class="block-text">
+                Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea
+                reprehenderit elit laboris do exercitation laborum sit elit
+                incididunt aute fugiat consectetur.
+              </p>
+              <a href="#" class="block-link"
+                >Watch the video to find out more</a
+              >
+            </div>
+            <div class="col-6 block-wrap"><img src="img/video.png" alt="video" /></div>
+          </div>
+        </section>
+      </div>
+      <div class="midle"><a name="features"></a>
+        <div class="container">
+          <div class="features">
+            <h2 class="features-title title anim-items">
+              Functionality and features
+            </h2>
+            <div class="features__box">
+              <div class="features__box-item">
+                <img src="img/globe.svg" alt="globe" />
+                <p>
+                  Access data from <br />
+                  over 30,0000 global stations
+                </p>
+              </div>
+              <div class="features__box-item">
+                <img src="img/stack.svg" alt="stack" />
+                <p>Create your own library of data</p>
+              </div>
+              <div class="features__box-item">
+                <img src="img/notebook.svg" alt="notebook" />
+                <p>Analyse your data</p>
+              </div>
+              <div class="features__box-item">
+                <img src="img/peoples.svg" alt="peoples" />
+                <p>Present your data</p>
+              </div>
+            </div>
+          </div>
+          <a name="item"></a>
+          <div class="poll">
+            <div class="poll-img">
+              <img src="img/puzzle.jpg" alt="puzzle" />
+            </div>
+              
+            <form action="#" class="poll__form">
+              <h2 class="poll__form-title title anim-items">
+                    We want the best value for you:
+              </h2>
+              <ol>
+                <form action="#">
+                  <li>Are you willing to spend money?</li>
+                    <div class="poll__form-btn">
+                      <input
+                          id="radio-1"
+                          type="radio"
+                          name="radio"/>
+                      <label for="radio-1">Yes</label>
+                    </div>
+                    <div class="poll__form-btn">
+                      <input
+                          id="radio-2"
+                          type="radio"
+                          name="radio"
+                          value="2"/>
+                      <label for="radio-2">No</label>
+                    </div>
+                </form>
+                <form action="#">
+                  <li>Who are you?</li>
+                    <div class="poll__form-btn">
+                      <input
+                          id="radio-3"
+                          type="radio"
+                          name="radio"
+                          value="3"
+                        />
+                      <label for="radio-3">Individual</label>
+                    </div>
+                    <div class="poll__form-btn">
+                      <input
+                          id="radio-4"
+                          type="radio"
+                          name="radio"
+                          value="4"
+                        />
+                      <label for="radio-4">Student</label>
+                    </div>
+                    <div class="poll__form-btn">
+                        <input
+                          id="radio-5"
+                          type="radio"
+                          name="radio"
+                          value="5"
+                        />
+                        <label for="radio-5">Company user</label>
+                      </div>
+                </form>
+                <form action="#">
+                      <li>What sort of data are you working with?</li>
+                      <div class="poll__form-btn">
+                        <input
+                          id="radio-6"
+                          type="radio"
+                          name="radio"
+                          value="6"
+                        />
+                        <label for="radio-6">Meteorological</label>
+                      </div>
+                      <div class="poll__form-btn">
+                        <input
+                          id="radio-7"
+                          type="radio"
+                          name="radio"
+                          value="7"
+                        />
+                        <label for="radio-7">Other</label>
+                      </div>
+                </form>
+                <form action="#">
+                      <li>Wind Speed Data:</li>
+                      <div class="poll__form-btn">
+                        <input
+                          id="radio-8"
+                          type="radio"
+                          name="radio"
+                          value="8"
+                        />
+                        <label for="radio-8">I have my own</label>
+                      </div>
+                      <div class="poll__form-btn">
+                        <input
+                          id="radio-9"
+                          type="radio"
+                          name="radio"
+                          value="9"
+                        />
+                        <label for="radio-9"
+                          >I want to find quality wind speed data</label
+                        >
+                  </div>
+                </form>
+              </ol>
+            </form>
+          </div>
+<a name="partners"></a>
+          <div class="partners"></a>
+            <h2 class="partners-title title anim-items">Our partners</h2>
+            <div class="partners__corousel">
+              <div class="partners__corousel-slide">
+                <img src="img/partners1.svg" alt="parners" />
+              </div>
+              <div class="partners__corousel-slide">
+                <img src="img/partners2.svg" alt="parners" />
+              </div>
+              <div class="partners__corousel-slide">
+                <img src="img/partners3.svg" alt="parners" />
+              </div>
+              <div class="partners__corousel-slide">
+                <img src="img/partners4.svg" alt="parners" />
+              </div>
+              <div class="partners__corousel-slide">
+                <img src="img/partners1.svg" alt="parners" />
+              </div>
+              <div class="partners__corousel-slide">
+                <img src="img/partners2.svg" alt="parners" />
+              </div>
+              <div class="partners__corousel-slide">
+                <img src="img/partners3.svg" alt="parners" />
+              </div>
+              <div class="partners__corousel-slide">
+                <img src="img/partners4.svg" alt="parners" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<a name="faq"></a>
+      <section class="faq">
+        <div class="container">
+          <h2 class="faq-title title anim-items">Our features</h2>
+          <p class="faq-text">
+            Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea
+            reprehenderit elit laboris do exercitation laborum sit elit
+            incididunt aute fugiat consectetur.
+          </p>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion__item">
+              <div
+                class="accordion__item-head"
+                id="headingOne"
+                data-target="#collapseOne"
+                data-toggle="collapse"
+              >
+                Lorem irure fugiat cupidatat duis mollit commodo?<i
+                  class="fas fa-angle-down"
+                ></i>
+              </div>
+              <div
+                id="collapseOne"
+                class="accordion__item-body"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                  natus illum eligendi nulla eos in, rerum totam. Eum, corrupti.
+                  Quasi repudiandae, ad reiciendis nemo similique accusantium
+                  excepturi atque quidem fugiat?
+                </p>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div
+                class="accordion__item-head"
+                id="headingTwo"
+                data-target="#collapseTwo"
+                data-toggle="collapse"
+              >
+                Commodo nisi aliqua proident consequat consequat?<i
+                  class="fas fa-angle-down"
+                ></i>
+              </div>
+              <div
+                id="collapseTwo"
+                class="accordion__item-body"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                  natus illum eligendi nulla eos in, rerum totam. Eum, corrupti.
+                  Quasi repudiandae, ad reiciendis nemo similique accusantium
+                  excepturi atque quidem fugiat?
+                </p>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div
+                class="accordion__item-head"
+                id="headingThree"
+                data-target="#collapseThree"
+                data-toggle="collapse"
+              >
+                Sunt veniam voluptate reprehenderit consectetur eiusmod quis?<i
+                  class="fas fa-angle-down"
+                ></i>
+              </div>
+              <div
+                id="collapseThree"
+                class="accordion__item-body"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                  natus illum eligendi nulla eos in, rerum totam. Eum, corrupti.
+                  Quasi repudiandae, ad reiciendis nemo similique accusantium
+                  excepturi atque quidem fugiat?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__logo">
+          <img src="img/logo-footer.svg" alt="logo" />
+        </div>
+        <div class="footer__social">
+          <a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
+          <a href="#"><img src="img/youtube.svg" alt="youtube" /></a>
+          <a href="#"><img src="img/instagram.svg" alt="instagram" /></a>
+        </div>
+      </div>
+    </footer>
+
+    <link rel="stylesheet" href="js/slick/slick.css" />
+    <link rel="stylesheet" href="js/slick/slick-theme.css" />
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
